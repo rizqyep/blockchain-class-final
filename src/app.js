@@ -1,9 +1,9 @@
 App = {
     load: async() => {
         await App.loadWeb3();
+        await App.loadAccount();
+        await App.loadContract();
     },
-
-    // https://medium.com/metamask/https-medium-com-metamask-breaking-change-injecting-web3-7722797916a8
     loadWeb3: async() => {
         if (typeof web3 !== 'undefined') {
             App.web3Provider = web3.currentProvider
@@ -34,6 +34,12 @@ App = {
         else {
             console.log('Non-Ethereum browser detected. You should consider trying MetaMask!')
         }
+    },
+    loadAccount: async() => {
+        App.account = web3.eth.accounts[0]
+    },
+    loadContract: async() => {
+        const todoList = await $.getJSON('TodoList.json')
     }
 
 }
