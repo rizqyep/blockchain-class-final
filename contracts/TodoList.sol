@@ -17,6 +17,8 @@ contract TodoList {
         createTask("Init new task added");
     }
 
+    event TaskCompleted(uint256 id, bool completed);
+
     function createTask(string memory _content) public {
         taskCount++;
         tasks[taskCount] = Task(taskCount, _content, false);
@@ -27,5 +29,6 @@ contract TodoList {
         Task memory _task = tasks[_id];
         _task.completed = !_task.completed;
         tasks[_id] = _task;
+        emit TaskCompleted(id, _task.completed);
     }
 }
