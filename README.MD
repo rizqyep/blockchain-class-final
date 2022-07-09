@@ -1,6 +1,12 @@
 
 # Blockchain Case Study - Todo List Dapp
 
+<p>
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05033?logo=git&logoColor=white" />
+  <img alt="Javascript" src="https://img.shields.io/badge/Javascript-F7DF1E?logo=javascript&logoColor=black" />
+  <img alt="Solidity" src="https://img.shields.io/badge/Solidity-FFFFFF?logo=solidity&logoColor=black" />
+</p>
+
 Project ini dibuat untuk keperluan edukasi (Educational Purpose) pada Mata Kuliah Blockchain, S1 Teknik Komputer, Fakultas Teknik Elektro, Telkom University.
 
 Anggota Tim:
@@ -143,3 +149,5 @@ Berikut adalah hasil dari mencoba fungsi untuk mendapatkan task pada TodoList co
 > truffle test
 
 <b>Important notes: make sure you connected to meta mask to the correct network and account as displayed on your ganache (account can be imported by acquiring the private key on ganache) </b>
+
+Thank You!
