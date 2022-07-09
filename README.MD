@@ -40,3 +40,6 @@
 > truffle test
 
 <b>Important notes: make sure you connected to meta mask to the correct network and account as displayed on your ganache (account can be imported by acquiring the private key on ganache) </b>
+
+### Technical Documentation
+https://www.notion.so/adityarhmn/Blockchain-Case-Study-Todo-List-Dapp-aa4d746cc7684113b43bec0e62aba89e
