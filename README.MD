@@ -40,3 +40,6 @@
 > truffle test
 
 <b>Important notes: make sure you connected to meta mask to the correct network and account as displayed on your ganache (account can be imported by acquiring the private key on ganache) </b>
+
+### Technical Documentation
+https://uas-blockchain.super.site/
